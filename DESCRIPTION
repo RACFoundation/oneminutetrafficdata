@@ -1,0 +1,15 @@
+Package: oneminutetrafficdata
+Type: Package
+Title: Extracting and Using One Minute Traffic Count Data
+Version: 0.1.0
+Authors@R: c(
+  person("Ivo", "Wengraf", email = "Ivo.Wengraf@RACFoundation.org", role = "cre"),
+  person("Luke", "Hudlass-Galley", email = "lukehudlass@gmail.com", role = "aut"),
+  person("Eddie", "Wilson", email = "Re.Wilson@bristol.ac.uk", role = "aut"),
+  person("RAC Foundation", role = "cph"))
+Description: Motorway Incident Detection and Automatic Signalling (MIDAS) is a sensor based network along UK motorways, and is designed to collect data regarding traffic flows, average speeds and road occupancy, amongst other features, on the road network. This data can be accessed via the MIDAS website <https://www.midas-data.org.uk/> (login required) in the form of .tcd.bz2 files. This package makes it easier to extract data from multiple .tcd files and present them to the user in a list, in which each item is a dataframe corresponding to each site the user queries. In addition to extracting the data, a number of tools have been developed to improve usability of the MIDAS data.
+Import: timeDate 
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
