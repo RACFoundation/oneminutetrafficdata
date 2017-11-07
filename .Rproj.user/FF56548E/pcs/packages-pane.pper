@@ -1,0 +1,7 @@
+{
+    "installOptions" : {
+        "installDependencies" : true,
+        "installFromRepository" : true,
+        "libraryPath" : "\\\\RACPMFile1/userhomefolder$/IWengraf/My Documents/R/win-library/3.4"
+    }
+}
